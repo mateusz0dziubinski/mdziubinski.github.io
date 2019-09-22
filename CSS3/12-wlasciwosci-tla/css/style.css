@@ -1,0 +1,10 @@
+#background-img {
+    background-image: url("../img/truskawka.jpg"), url("../img/smoke.jpg");
+    background-blend-mode: overlay;
+    /*background-repeat: repeat-y;*/
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+    color:  white;
+}
