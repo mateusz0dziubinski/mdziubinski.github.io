@@ -1,0 +1,17 @@
+/*
+p {
+    background-color: yellow !important;
+}
+*/
+
+#paragraph {
+    background-color: aquamarine;
+}
+
+p.paragraph {
+    background-color: aqua;
+}
+
+p {
+    background-color: burlywood;
+}

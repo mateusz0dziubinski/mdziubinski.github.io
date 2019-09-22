@@ -1,0 +1,41 @@
+#static {
+    width: 400px;
+    height: 150px;
+    background-color: greenyellow;
+}
+
+#relative {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    top: 100px;
+    left: 100px;
+    background-color: aqua;
+}
+
+#absolute {
+    position: absolute;
+    background-color: violet;
+    height: 300px;
+    width: 300px;
+    top: 25px;
+    left: 25px;    
+}
+
+#fixed {
+    position: fixed;
+    background-color: pink;
+    height: 150px;
+    width: 600px;
+    bottom: 300px;
+    left: 150px;    
+}
+
+#sticky {
+    width: 100%;
+    position: sticky;
+    height: 100px;
+    background-color: aquamarine;
+    top:  0;
+}
+

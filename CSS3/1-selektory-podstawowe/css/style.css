@@ -1,0 +1,32 @@
+* {
+    color: violet;
+    padding: 85px;
+}
+
+p {
+    color: aqua;
+}
+
+#kasia {
+    background-color: bisque;
+}
+
+div.lorak {
+    color: blueviolet;
+}
+
+ul a {
+    background-color: pink;
+}
+
+a > span {
+    color: antiquewhite;
+}
+
+li#pierwszy ~ li {
+    background-color: yellow;
+}
+
+li#pierwszy + li {
+    background-color: tomato;
+}

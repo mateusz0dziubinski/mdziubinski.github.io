@@ -1,0 +1,32 @@
+[title] {
+    color: blueviolet;
+}
+
+[title="About me"] {
+    color: thistle;
+}
+
+[title~="Container"] {
+    background-color: yellow;
+}
+
+[title*="tion"] {
+    background-color: pink;
+}
+
+[title^="More"] {
+    text-transform: uppercase;
+}
+
+[title$="skills"] {
+    color: limegreen;
+}
+
+[title]:last-child {
+    background-color: lemonchiffon;
+}
+
+nav > ul > li > a[title] {
+    background-color: blue;
+}
+
