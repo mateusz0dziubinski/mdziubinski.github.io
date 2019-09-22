@@ -8,18 +8,14 @@
 </head>
 <body>
     <form action="https://formspree.io/dziubek2_88@o2.pl" method="POST">
-        Wpisz imię i nazwisko<br>
-        <input type="text" name="nameAndSurname">
-        <br>
-        Email<br>
-        <input type="email" name="_replyto">
-        <br>
-        Numer telefonu<br>
-        <input type="number" name="telephone">
-        <br>
-        Wiadomość<br>
-        <textarea name="message" placeholder="Wpisz wiadomość"></textarea>
-        <br>
+        <label for="Imię i Nazwisko">Imię i Nazwisko:</label>
+        <input type="text" name="Imię i nazwisko" id="name" placeholder="Imię i Nazwisko"><br><br>
+        <label for="Email">Adres email:</label>
+        <input type="email" name="email" id="email" placeholder="Adres email"><br><br>
+        <label for="Telefon">Numer telefonu:</label>
+        <input type="tel" name="telephone" id="phone" placeholder='Numer telefonu'><br><br>
+        <label for="Wiadomość">Wiadomość:</label><br>
+        <textarea name="message" id="message" placeholder='rozpisz się trochę' cols="30" rows="10"></textarea><br><br>
         <input type="submit" value="Wyślij">
       </form> 
 </body>
