@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    background-image: url("img/domenico-loia-EhTcC9sYXsw-unsplash.jpg");
+    height: 750px;
+    width: 1000px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#formGeneral {
+    margin-top: 100px;
+    margin-left: 100px;
+    height: 500px;
+    width: 300px;
+    border: 5px solid black;
+    border-radius: 5%;
+    background-color: #213b50;
+    padding: 20px;
+    color: white;
+    opacity: 0.75;
+}
+
+#formGenera input, #formGenera select {
+    margin-bottom: 10px;
+}
+
+#formGeneral input[type="submit"] {
+    background: rgb(38, 233, 38);
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+#formGeneral select, #formGeneral input[type="text"], #formGeneral input[type="tel"], #formGeneral input[type="email"], #formGeneral textarea {
+    width: 300px;
+    background-color: #2b4a64;
+    color: white;
+    height: 25px;
+    border: none;
+}
+
+
+#formGeneral select:focus, #formGeneral input:focus, #formGeneral textarea:focus {
+    background-color: #4e708c;
+    border: 1px solid white;
+    outline: none;
+}
+
+#formGeneral input[type="checkbox"] {
+    float: left;
+}
+
+
+
