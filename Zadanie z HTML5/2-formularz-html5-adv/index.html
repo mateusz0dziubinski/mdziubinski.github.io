@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+        <span>Simple form</span>
+    </h1>
+    <h2>
+        <i>Form Fundamentals</i>
+    </h2>
+    <div id="form">
+            <form action="https://formspree.io/dziubek2_88@o2.pl" method="POST">
+                <fieldset>
+                    <legend>Customer Info</legend>
+                            <label for="name">Name:</label>
+                            <input type="text" name="name" id="name" size="51" autofocus placeholder="Enter your name" autocomplete="on" required>
+                            <br>
+                            <br>
+                            <label for="telephone">Telephone:</label>
+                            <input type="text" name="telephone" id="telephone" size="53" placeholder="Pattern: 1-234-567-8910"
+                            pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}-[0-9]{3}" autocomplete="on" required>
+                            <br>
+                            <br>
+                            <label for="mail">Email addres:</label>
+                            <input type="email" name="_replyto" id="mail" size="55" placeholder="Enter your email addres" autocomplete="on" required>      
+                            <br>
+                            <br>     
+                </fieldset>
+                <fieldset>
+                        <legend>Books</legend>
+                            <label for="myOrderBooks"></label>
+                            <input list="orderBooks" id="myOrderBooks" name="myOrderBooks">
+                            <datalist id="orderBooks">
+                                <option value="Wprowadzenie do HTML5 i JavaScriptu Jeanine Meyer">
+                                <option value="HTML5. Tworzenie gier Jacob Seidelin">
+                                <option value="HTML5. Nieoficjalny podręcznik. Wydanie II Matthew MacDonald">
+                                <option value="HTML5. Ćwiczenia praktyczne Bartosz Danowski">
+                                <option value="Tworzenie gier w języku HTML5 dla profesjonalistów Aditya Ravi Shankar">
+                            </datalist>
+                            <label for="quantity">Quanity(Maximum 5):</label>
+                            <input type="number" id="quantity" name="quantity"
+                                min="1" max="5">
+                            <br>
+                            <br>
+                </fieldset>
+                <input type="submit" value="Submit">
+            </form>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
