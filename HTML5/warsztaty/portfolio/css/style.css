@@ -1,0 +1,182 @@
+body{
+    margin-top: -30px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    height: 40em;
+    background-image: url("img/header.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.imgHeader{
+    position: relative;
+}
+
+#text1 {
+    position: relative;
+    top: 250px;
+    left: 45px;
+}
+
+#hr1{
+    position: relative;
+    background-color: #007bff;
+    height: 2px;
+    width: 100px;
+    top: 220px;
+    left: 20px;
+}
+
+#text2{
+    position: relative;
+    top: 230px;
+    left: 650px;
+    font-size: 20px;
+}
+
+#text3{
+    position: relative;
+    top: 120px;
+    left: 720px;
+    font-size: 20px;
+}
+
+span{
+    color: #007bff;
+
+}
+
+h1{
+    text-align: center;
+    color: #007bff;
+    font-size: 50px;
+}
+
+.button {
+    position: relative;
+    top: 265px;
+    left: 690px;
+    display: inline-block;
+    text-transform: uppercase;
+    border: 1px solid #007bff;
+    padding: 1.5em 2em;
+    color: #333;
+    font-size: 0.75em;
+    text-decoration: none;
+}
+
+nav{
+    position: sticky;
+    top: 0;
+    background: #007bff;
+    width: 100%;
+    height: 4em;
+    text-align: center;
+    z-index: 100;
+}
+
+nav ul {
+    margin: 0;
+
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 20px 10px; 
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+  
+li a:hover {
+    background-color: #777;
+}
+
+#imgSection1 {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    top: 150px;
+    left: 670px;
+    border-radius: 500px;
+    background-image: url("img/about.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#hr2{
+    position: relative;
+    background-color: #007bff;
+    height: 2px;
+    width: 100px;
+    top: 100px;
+    left: 20px;
+}
+
+p{
+    padding: 200px 400px 0px 400px;
+    margin: 0px 0px -150px;
+    text-align: center;
+    color: #333;
+    font-size: 15px;
+}
+
+.button2{
+    position: relative;
+    top: 200px;
+    left: 690px;
+    display: inline-block;
+    text-transform: uppercase;
+    border: 1px solid #007bff;
+    padding: 1.5em 2em;
+    color: #333;
+    font-size: 0.75em;
+    text-decoration: none;
+}
+
+#section2{
+    position: relative;
+    background-color: #f2f1ed;
+    width: 100%;
+    height: 900px;
+    top: 200px;
+}
+
+#text4{
+    position: relative;
+    top: 100px;
+    left: 690px;
+    font-size: 20px;
+}
+
+#hr3{
+    position: relative;
+    background-color: #007bff;
+    height: 2px;
+    width: 100px;
+    top: -20px;
+    right: 670px;
+}
+
+.outer{
+    position: relative;
+    background-color: black;
+    top: 0;
+    right: 750px;
+    height: 550px;
+    width: 1000x;
+    margin: 25px 100px 100px 200px ;
+}
+
+.inner{
+    background: #333;
+    width: 400px;
+    height: 15px;
+}

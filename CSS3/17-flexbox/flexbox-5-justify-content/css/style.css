@@ -1,0 +1,24 @@
+.container{
+    border: 1px dotted olive;
+    display: flex;
+    /* justify-content: flex-start; */
+    /* justify-content: flex-end; */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    justify-content: space-evenly;
+
+}
+
+.flex-item{
+    background-color: orange;
+    color: white;
+    border: olivedrab 1px solid;
+    padding: 10px;
+    font-family: arial Arial, Helvetica, sans-serif;
+    flex-basis: 8%;
+}
+
+.flex-item:nth-child(2n-1){
+    background-color: orangered;
+}

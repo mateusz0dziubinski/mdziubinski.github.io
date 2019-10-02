@@ -1,0 +1,16 @@
+.container{
+    border: 1px dotted olive;
+    display: flex;
+}
+
+.flex-item{
+    background-color: orange;
+    color: white;
+    border: olivedrab 1px solid;
+    padding: 10px;
+    font-family: arial Arial, Helvetica, sans-serif;
+}
+
+.flex-item:nth-child(2n-1){
+    background-color: orangered;
+}

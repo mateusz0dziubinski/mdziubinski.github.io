@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: darkgray;
+}
+
+.box{
+    font-size: 15px;
+    width: 25%;
+    padding: 30px;
+    float: left;
+    font-family: sans-serif;
+    border: 10px solid green;
+}
+
+
+
+@media(max-width: 768px){
+    .box{
+        width: 100%;
+        background-color: gainsboro;
+        color: darkgray;
+        border: 1px dashed blue;
+    }
+}
+
+@media(max-width: 992px){
+    .box{
+        width: 50%;
+        background-color: chartreuse;
+        color: white;
+        font-size: 13px;
+    }
+}
+
+@media(min-width:320px) and (max-width: 560px){
+    .box{
+        width: 100%;
+    }
+}

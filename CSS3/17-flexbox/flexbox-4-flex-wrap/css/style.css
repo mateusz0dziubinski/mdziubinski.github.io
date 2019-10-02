@@ -1,0 +1,19 @@
+.container{
+    border: 1px dotted olive;
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-wrap: wrap-reverse;
+}
+
+.flex-item{
+    background-color: orange;
+    color: white;
+    border: olivedrab 1px solid;
+    padding: 10px;
+    font-family: arial Arial, Helvetica, sans-serif;
+    flex-basis: 28%;
+}
+
+.flex-item:nth-child(2n-1){
+    background-color: orangered;
+}
