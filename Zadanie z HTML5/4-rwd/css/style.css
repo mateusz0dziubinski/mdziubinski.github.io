@@ -22,8 +22,9 @@ h2, span {
 }
 
 h2 {
+	position: relative;
 	vertical-align: middle;
-	top: -25em;
+	top: -17em;
 	color: white;
 	font-size: 30px;
 	padding: 35px;
@@ -44,17 +45,18 @@ span {
 		background-position: center;
 	}
 	h2 {
+
 		text-align: right;
 		color: white;
-		top: -30em;
-		right: 10em;
-		font-size: 25px;
+		top: -25em;
+		right: 13em;
+		font-size: 20px;
 		padding: 35px;
 	}
 	span {
 		top: 1em;
 		left: 6.7em;
-		font-size: 30px;
+		font-size: 25px;
 	}
 }
 
@@ -71,6 +73,7 @@ span {
 		position: relative;
 	}
 	h2 {
+
 		text-align: center;
 		top: 0em;
 		color: black;
