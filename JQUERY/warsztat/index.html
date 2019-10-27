@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+            <form id="pizzaOrder" class="pizzaOrder" action="">
+                <fieldset>
+                    <label type="text" name="firstNname">Imię:</label>
+                    <input id="firstName" class="firstName">
+                </fieldset>
+                <br>
+                <fieldset>
+                    <label type="text" name="lastName">Nazwisko:</label>
+                    <input id="lastName" class="lastName">
+                </fieldset>
+                <br>
+                <fieldset>
+                    <label type="number" name="adress">Ulica:</label>
+                    <input id="adress" class="adress">
+                </fieldset>
+                <br>
+                <fieldset>
+                    <label type="text" name="numberAdress">Numer domu:</label>
+                    <input id="numberAdress" class="numberAdress">
+                </fieldset>
+                <br>
+                <fieldset>
+                    <label type="text" name="postCode">Kod pocztowy:</label>
+                    <input id="postCode" class="postCode">
+                </fieldset>
+                <br>
+                <fieldset>
+                    <label type="text" name="city">Miasto:</label>
+                    <input id="city" class="city">
+                </fieldset>
+                <fieldset>
+                    <label for="typeOfPizza">Pizza:</label>
+                    <select id="typeOfPizza" class="typeOfPizza">
+                        <option value="0"></option>
+                        <option value="1">Margarita</option>
+                        <option value="2">Hawaiian</option>
+                        <option value="3">Carbonara</option>
+                    </select>
+                    <label type="number" name="price">Cena:</label>
+                    <span id="price0" class="price0"></span>
+                    <fieldset>
+                        <input type="checkbox" name="tomatoSauce" id="tomatoSauce" class="tomatoSauce"> Sos
+                        pomidorowy<br>
+                        <input type="checkbox" name="garlicSauce" id="garlicSauce" class="garlicSauce"> Sos
+                        Czosnkowy<br>
+                    </fieldset>
+                    <fieldset>
+                        <input type="checkbox" name="agrement" id="agrement" class="agrement">Zgoda na RODO<br>
+                    </fieldset>
+                </fieldset>
+                <ul id="errors" class="errors"></ul>
+                <button name="submit" value="submit" id="submit" class="submit">Wyślij</button>
+            </form>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"></script>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
