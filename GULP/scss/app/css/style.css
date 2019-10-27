@@ -1,0 +1,22 @@
+body {
+  background-color: #bbbbbb;
+  color: black;
+  font-size: 15px; }
+
+p {
+  color: #bbbbbb;
+  background-color: #000;
+  text-transform: uppercase;
+  font-family: sans-serif; }
+
+nav ul {
+  margin: 15px;
+  padding: 0%;
+  list-style: none; }
+  nav ul li {
+    display: inline-block;
+    background-color: #ffffff; }
+    nav ul li a {
+      color: #bbbbbb;
+      background-color: #000;
+      text-transform: uppercase; }

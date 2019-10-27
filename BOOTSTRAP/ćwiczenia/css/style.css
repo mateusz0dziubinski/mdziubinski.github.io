@@ -1,0 +1,24 @@
+.cont-example{
+    background-color: chartreuse;
+    height: 300px;
+}
+
+.cont-fluid-example{
+    background-color: chocolate;
+    height: 600px;
+}
+
+.item {
+    height: 400px;
+    background-color: lightsalmon;
+    border: 1px solid black;
+}
+
+.item:nth-child(2n) {
+    background-color: cornflowerblue;
+}
+
+
+
+
+
