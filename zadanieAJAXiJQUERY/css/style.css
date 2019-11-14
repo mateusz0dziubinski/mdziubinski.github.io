@@ -1,0 +1,23 @@
+#dane-programisty {
+	background-color: gainsboro;	
+    text-decoration: none;
+	text-transform: uppercase;
+	border: 1px solid #007bff;
+	margin: auto;
+	padding: 14px 20px;
+
+
+}
+
+button {
+    text-decoration: none;
+	text-transform: uppercase;
+	border: 1px solid #007bff;
+	margin: auto;
+	padding: 14px 20px;
+	display: inline-block;
+	transition: all .3s;
+	color: #333;
+	background-color: transparent;
+	cursor: pointer;
+}

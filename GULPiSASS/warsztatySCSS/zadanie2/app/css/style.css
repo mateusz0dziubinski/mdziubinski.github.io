@@ -1,0 +1,83 @@
+.center {
+  align-items: center; }
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 10px;
+  margin: 0px;
+  border: none;
+  padding: 0px; }
+
+header {
+  color: #fff;
+  padding-top: 1.5rem; }
+  header h2 {
+    font-size: 1.75rem;
+    display: inline;
+    margin: 0px 1rem;
+    font-weight: 700; }
+  header i {
+    color: #ecd407;
+    font-size: 1.75rem; }
+  header .phone {
+    text-align: right;
+    padding: .5rem; }
+    header .phone i {
+      color: #fff;
+      font-size: 2rem; }
+  header h3 {
+    font-size: 1.25rem; }
+  header p {
+    font-size: 1.05rem; }
+
+section, footer {
+  padding: 7em 0px; }
+
+section {
+  background-color: #001d8a;
+  background-image: url(../img/background.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff; }
+  section h1 {
+    font-size: 1.25rem;
+    margin-top: 6rem; }
+    section h1 .yellow {
+      color: #ecd407; }
+  section fieldset {
+    background-color: #001d8a;
+    padding: 2rem; }
+    section fieldset h3 {
+      font-size: 1.2rem; }
+    section fieldset input:not([type='submit']), section fieldset textarea {
+      width: 100%; }
+    section fieldset input, section fieldset textarea {
+      padding: .5rem;
+      margin-bottom: .5rem; }
+      section fieldset input:focus, section fieldset textarea:focus {
+        border: 1px solid #ecd407; }
+    section fieldset input[type='submit'] {
+      min-width: 30%;
+      background-color: #ecd407;
+      border: none;
+      color: #000;
+      text-transform: uppercase;
+      transition: 2s; }
+      section fieldset input[type='submit']:hover {
+        background-color: white; }
+
+footer {
+  background-color: #292929;
+  color: #fff; }
+  footer i {
+    display: block;
+    padding: 1.5rem;
+    font-size: 2rem;
+    background-color: #ecd407;
+    color: #292929; }
+  footer a {
+    display: block; }
+
+.mobile {
+  background-color: #001d8a; }

@@ -1,0 +1,121 @@
+$font: 'Open Sans', sans-serif;
+$blue: #001d8a;
+$yellow: #ecd407;
+$gray: #292929;
+$size: 10px;
+
+@mixin fixed {
+    margin: 0px;
+    border: none;
+    padding: 0px;
+}
+
+.center {
+    align-items: center;
+}
+
+@mixin background {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body {
+    font-family: $font;
+    font-size: $size;
+    @include fixed;
+}
+
+header {
+    color: #fff;
+   padding-top: 1.5rem;
+    h2 {
+        font-size: 1.75rem;
+        display: inline;
+        margin: 0px 1rem;
+        font-weight: 700;
+    }
+    i {
+        color: $yellow;
+        font-size: 1.75rem;
+    }
+  .phone {
+      text-align: right;
+      padding: .5rem;
+     i {
+         color: #fff;
+         font-size: 2rem;
+     }
+  }
+  h3 {
+    font-size: 1.25rem;
+  }
+  p {
+      font-size: 1.05rem;
+  }
+}
+
+section, footer {
+    padding: 7em 0px;
+}
+
+section {
+    background-color:  $blue;
+    background-image: url(../img/background.png);
+    @include background;
+    color: #fff;
+    h1 {
+        font-size: 1.25rem;
+        margin-top: 6rem;
+        .yellow {
+            color: $yellow;
+        }
+    }
+    fieldset {
+        background-color: $blue;
+        padding: 2rem;
+        h3 {
+            font-size: 1.2rem;
+        }
+        input:not([type='submit']), textarea {
+            width: 100%;
+        }
+        input, textarea {
+            padding: .5rem;
+            margin-bottom: .5rem;
+            &:focus {
+                border: 1px solid $yellow;
+            }
+        }
+        input[type='submit'] {
+            min-width: 30%;
+            background-color: $yellow;
+            border: none;
+            color: #000;
+            text-transform: uppercase;
+            transition: 2s;
+            &:hover {
+                background-color: white;
+            }
+        }
+    }
+}
+
+footer {
+    background-color: $gray;
+    color: #fff;
+    i {
+        display: block;
+        padding: 1.5rem;
+        font-size: 2rem;
+        background-color: $yellow;
+        color: $gray;
+    }
+    a {
+        display: block;
+    }
+}
+
+.mobile {
+    background-color: $blue;
+}

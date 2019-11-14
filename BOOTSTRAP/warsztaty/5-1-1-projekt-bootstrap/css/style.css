@@ -1,0 +1,183 @@
+body {
+	font-family: 'Raleway', sans-serif;
+}
+
+a {
+	color: #e38f42;
+	transition: all .3s;
+}
+
+a:hover {
+	color: #e38f42;
+}
+
+p {
+	color: #888;
+	opacity: 0.8;
+}
+
+.btn {
+	padding: 15px 20px;
+}
+
+.btn-orange {
+	background-color: #e38f42;
+	border: 0;
+}
+
+.btn-gray {
+	background-color: rgba(0, 0, 0, 0.3);
+	border: 0;
+}
+
+.btn:hover {
+	opacity: 0.8;
+}
+
+.btn-orange:hover {
+	background-color: #e38f42;
+}
+
+.btn-gray:hover {
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+section,
+footer {
+	padding-top: 120px;
+	padding-bottom: 130px;
+}
+
+iframe {
+	height: 100%;
+	width: 100%;
+}
+
+/* Main menu - START */
+
+.navbar {
+	background-color: #444;
+}
+
+.navbar .navbar-right {
+	justify-content: flex-end;
+}
+
+.navbar .navbar-brand,
+.navbar .navbar-nav .nav-link {
+	color: #c2c2c2;
+}
+
+.navbar .navbar-brand:hover,
+.navbar .navbar-nav .nav-link:hover {
+	color: #fff;
+}
+
+.navbar a:hover {
+	color: #fff;
+}
+
+.navbar .navbar-toggler {
+	background-color: #fff;
+}
+
+/* Main menu - END */
+
+/* Form - START */
+
+.main-form {
+	background-image: url(../img/form-background.jpg);
+	background-position: top;
+	background-size: cover;
+}
+
+
+.main-form form {
+	background-color: rgba(0, 0, 0, 0.3);
+	color: #fff;
+
+}
+
+.main-form p {
+    color: #c2c2c2;
+}
+
+.main-form form header {
+	background-color: rgba(0, 0, 0, 0.35);
+	padding: 25px;
+	margin: 0;
+}
+
+.main-form form header p {
+	font-size: 15px;
+	margin: 0;
+}
+
+.main-form form header i {
+	font-size: 3.7em;
+	opacity: 0.6;
+}
+
+.main-form form fieldset {
+	padding: 25px;
+}
+
+.main-form form input,
+.main-form form textarea {
+	width: 100%;
+	margin-bottom: 15px;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.main-form .content-holder {
+	padding-top: 120px;
+
+}
+
+.main-form .content-holder h1 {
+	margin-top: 10px;
+	font-size: 36px;
+	font-weight: 700;
+	color: #fff;
+	line-height: 44px;
+}
+
+.main-form .content-holder p {
+	font-size: 18px;
+	line-height: 34px;
+	color: #fff;
+	margin: 20px 0 30px 0;
+}
+
+.main-form .content-holder a {
+	margin: 5px;
+}
+
+/* Form - END */
+
+
+/* Footer - START */
+footer{
+	background-color: #f8f8f8;
+}
+/* Footer - END */
+
+
+/* Responsive - START */
+
+@media (max-width: 768px) {
+	.video-holder {
+		height: 400px;
+		margin-bottom: 30px;
+	}
+}
+
+
+@media (max-width: 480px) {
+	.main-form form header i {
+		font-size: 2em;
+	}
+}
+
+/* Responsive - STOP */

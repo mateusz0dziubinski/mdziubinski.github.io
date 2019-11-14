@@ -1,0 +1,32 @@
+* {
+    color: #969696;
+    font-family: 'Raleway', sans-serif;
+}
+
+hr {
+    width: 30%;
+}
+
+.my-faq {
+    width: 100%;
+}
+
+.row {
+    margin: 0;
+    padding: 0;
+    width: 60%;
+}
+
+
+.main-section {
+    width: 100%;
+    margin-top: 50px;
+}
+
+.faq-btn {
+    color: orange;
+}
+
+.faq-btn:hover {
+    color: #9d9d9d;
+}
